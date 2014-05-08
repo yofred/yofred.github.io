@@ -100,9 +100,19 @@ a {
 
 .site-nav .page-link {
   margin-left: 10px;
-  color: #727272;
+  color: black;
   letter-spacing: -.5px;
   text-decoration:none;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+.site-nav .page-link a:hover{
+  color:green;
+}
+
+a:hover {
+  color:red
 }
 
 /* Site footer */
