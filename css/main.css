@@ -43,6 +43,23 @@ a {
   text-decoration: none;
 }
 
+.logo img{
+  position:absolute;
+  margin:0 auto;
+/*  width:100px;*/
+  display:inline;
+/*  margin-top:150px;*/
+  max-width:100px;
+  padding-top:60px;
+}
+
+@media screen and (max-width: 600px) {  
+ .logo img{
+   display:none;
+ } 
+}
+
+
 /* Layout Styles */
 /* ----------------------------------------------------------*/
 
