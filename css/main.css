@@ -47,25 +47,6 @@ a {
   color:gray;
 }
 
-.logo img{
-  position:absolute;
-  margin:0 auto;
-/*  width:100px;*/
-  display:inline;
-/*  margin-top:150px;*/
-  max-width:100px;
-  padding-top:78px;
-}
-
-@media screen and (max-width: 600px) {  
- .logo img{
-   display:none;
- } 
-}
-
-
-/* Layout Styles */
-/* ----------------------------------------------------------*/
 
 /* Site header */
 
@@ -1100,4 +1081,11 @@ a:hover {
 .site-footer a:hover{
   color:gray;
   text-decoration:none;
+}
+
+/*PAGES -------------------------------------*/
+
+.post-header {
+  text-align:center;
+  padding-top:2em;
 }
