@@ -1,20 +1,36 @@
 ---
-layout: default
+layout: page
 ---
 
-<div class="home">
-
-  <h1>Posts</h1>
-
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div class="row work">
+  <div class="large-6 medium-6 small-12 gallery-index columns">
+    <a href="/smacangel" alt="Smacangel">
+      <img src="/images/index-smacancer.png" alt="site logo" />
+    </a>
+  </div>
+  <div class="large-6 medium-6 small-12 gallery-index columns">
+    <a href="/findyourphotog" alt="Find Your Photog">
+      <img src="/images/index-findyourphotog.png" alt="site logo" />
+    </a>
+  </div>
+  <div class="large-6 medium-6 small-12 gallery-index columns">
+    <a href="/workhang" alt="Work/Hang">
+      <img src="/images/index-workhang.png" alt="site logo" />
+    </a>
+  </div>
+  <div class="large-6 medium-6 small-12 gallery-index columns">
+    <a href="/dubtrack" alt="Dubtrack.FM">
+      <img src="/images/index-dubtrack.png" alt="site logo" />
+    </a>
+  </div>  
+  <div class="large-6 medium-6 small-12 gallery-index columns">
+    <a href="/yofred" alt="My porftolio site">
+      <img src="/images/index-yofred.png" alt="site logo" />
+    </a>
+  </div>
+  <div class="large-6 medium-6 small-12 gallery-index columns">
+    <a href="/sinatrablog" alt=" Sinatra Blog">
+      <img src="/images/index-blog.png" alt="site logo" />
+    </a>
+  </div>
 </div>

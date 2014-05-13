@@ -16,6 +16,20 @@
   display: block;
   margin-top: 20px;
 }
+
+.center-text{
+  text-align:center;
+}
+
+.border{
+  border:2px solid lightgray;
+}
+
+.bottom-padding{
+  padding-bottom:50px;
+}
+
+
 /* Base */
 /* ----------------------------------------------------------*/
 
@@ -58,10 +72,6 @@ a:visited { color: #205caa; }
 
 a {
   text-decoration: none;
-}
-
-.trigger a:hover{
-  color:gray;
 }
 
 
@@ -531,7 +541,7 @@ a:hover {
   font-weight: normal;
   text-decoration: none;
   margin: 0 20px;
-  font-size: 80px;
+  font-size: 50px;
   color:black;
   transition: all .5s ease;
   
