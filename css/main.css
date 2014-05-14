@@ -1,13 +1,9 @@
-#work-button{
-  width:100px;
-  background-color:red;
-  height:50px;
+#work-button:hover{
+  color:gray;
 }
 
-#resume-button{
-  width:100px;
-  background-color:red;
-  height:50px;
+#resume-button:hover{
+  color:gray;
 }
 
 
