@@ -1,3 +1,15 @@
+#work-button{
+  width:100px;
+  background-color:red;
+  height:50px;
+}
+
+#resume-button{
+  width:100px;
+  background-color:red;
+  height:50px;
+}
+
 
 /*PAGES -------------------------------------*/
 
@@ -62,6 +74,7 @@
 * {
   margin: 0;
   padding: 0;
+/*  transition: all 1s ease;*/
 }
 
 html, body { height: 100%; }

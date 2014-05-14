@@ -1,4 +1,8 @@
 $(document).ready(function(){
+
+  $("#resume").hide();
+  $(".fancybox").fancybox();
+
   
   $('.hover').hover(function(){
       $(this).addClass('flip');
