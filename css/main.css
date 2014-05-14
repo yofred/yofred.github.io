@@ -40,6 +40,21 @@
   padding-bottom:15px;
 }
 
+.small-margin{
+  margin-top:15px;
+  margin-bottom:15px;
+}
+
+/*.fancybox{*/
+/*  width:70%;*/
+/*  padding: 5px 0;*/
+/*}*/
+
+.gallery img{
+  padding-top:25px;
+  padding-bottom:25px;
+}
+
 
 /* Base */
 /* ----------------------------------------------------------*/
