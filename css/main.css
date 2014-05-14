@@ -63,6 +63,9 @@
   padding-bottom:20px;
 }
 
+#resume{
+  display:none;
+}
 
 /* Base */
 /* ----------------------------------------------------------*/
@@ -157,7 +160,7 @@ a {
   letter-spacing: -.5px;
   text-decoration:none;
   transition-property: all;
-  transition-duration: 0.5s;
+
 }
 
 .site-nav .page-link a:hover{

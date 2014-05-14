@@ -1,8 +1,40 @@
+// $(document).ready(function(){
+// 
+//   $(".fancybox").fancybox();
+//   
+//   // $("#resume").hide();
+//   
+//   $("#work-button").on('click', function(){
+//     $("#resume").hide();
+//     $('#work').slideDown('slow')
+//   });
+//   
+//   $("#resume-button").on('click', function(){
+//     $("#work").hide();
+//     $('#resume').slideDown('slow')
+//   });
+//   
+//   $("#resume-project-button").on('click', function(){
+//      $("#work").hide();
+//      $('#resume').show();
+//      window.location.href = "/";
+//      return false
+//   });
+// 
+//   
+//   $('.hover').hover(function(){
+//       $(this).addClass('flip');
+//   },function(){
+//       $(this).removeClass('flip');
+//   });
+//   
+// });
+
+
 $(document).ready(function(){
 
-  $(".fancybox").fancybox();
+ $(".fancybox").fancybox();
   
-  $("#resume").hide();
   $("#work-button").on('click', function(){
     $("#resume").hide();
     $('#work').slideDown('slow')
@@ -10,7 +42,17 @@ $(document).ready(function(){
   
   $("#resume-button").on('click', function(){
     $("#work").hide();
-    $('#resume').slideDown('slow')
+    $('#resume').slideDown('slow');
+      
+      return false;
+  });
+  
+  $("#resume-project-button").on('click', function(){
+     $("#work").hide();
+     $('#resume').show();
+      
+            return false;
+     
   });
 
   
