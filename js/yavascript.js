@@ -14,11 +14,18 @@ $(document).ready(function(){
     $('#resume').slideDown('slow')
   });
   
+  // $("#resume-project-button").on('click', function(){
+  //    $("#work").hide();
+  //    $('#resume').slideDown('slow')
+  //    window.location.href = "/";
+  //    // return true
+  // });
+  
   $("#resume-project-button").on('click', function(){
-     $("#work").hide();
-     $('#resume').show();
-     window.location.href = "/";
-     return false
+    $("#work").hide();
+    $('#resume').slideDown('slow')
+     // window.location.href = "/";
+     // return true
   });
 
   
