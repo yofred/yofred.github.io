@@ -453,12 +453,9 @@ a:hover {
   .site-nav {
     position: fixed;
     z-index: 10;
-    top: 14px; right: 8px;
+    top: 5px; right: 30px;
     background-color: white;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    border: 1px solid #e8e8e8;
+/*    transform: scale(3.5);*/
   }
 
   .site-nav .menu-icon {
@@ -626,7 +623,7 @@ a:hover {
 
 .smacangel-image {
  width: 100%;
- height:600px;
+ height:455px;
  display:block;
  background:transparent url('/images/smacangels-logo.png');
  background-repeat: no-repeat;
@@ -638,23 +635,23 @@ a:hover {
  background-image: url('/images/smacangels-logo-flip.png');
 }
 
-.findyourphotog-image{
-  width: 100%;
-  height:600px;
-  display:block;
-  background:transparent url('/images/findyourphotog-logo.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  transition:1s;
+.findyourphotog-image {
+ width: 100%;
+ height:455px;
+ display:block;
+ background:transparent url('/images/findyourphotog-logo.png');
+ background-repeat: no-repeat;
+ background-size: contain;
+ transition:1s;
 }
 
-.findyourphotog-image:hover{
-  background-image: url('/images/findyourphotog-logo-flip.png');
+.findyourphotog-image:hover {
+ background-image: url('/images/findyourphotog-logo-flip.png');
 }
 
 .workhang-image {
  width: 100%;
- height:600px;
+ height:455px;
  display:block;
  background:transparent url('/images/workhang-logo.png');
  background-repeat: no-repeat;
@@ -668,7 +665,7 @@ a:hover {
 
 .dubtrack-image {
  width: 100%;
- height:600px;
+ height:455px;
  display:block;
  background:transparent url('/images/dubtrack-logo.png');
  background-repeat: no-repeat;
@@ -680,5 +677,19 @@ a:hover {
  background-image: url('/images/dubtrack-logo-flip.png');
 }
 
+@media screen and (max-width: 640px) {
+  .smacangel-image, .findyourphotog-image, .workhang-image, .dubtrack-image{
+    margin-bottom:1em;
+    margin-left:auto;
+    margin-right:auto;
+  }
+}
+
+/*@media screen and (max-width: 750px) {
+  .smacangel-image, .findyourphotog-image, .workhang-image, .dubtrack-image{
+    margin-bottom:1em;
+  }
+}
+*/
 
 
