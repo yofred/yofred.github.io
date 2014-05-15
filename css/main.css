@@ -112,8 +112,8 @@ a:visited { color: #205caa; }
 .wrap:after { content:""; display:table; }
 .wrap:after { clear: both; }
 .wrap {
-  max-width: 800px;
-  padding: 0 30px;
+  max-width: 950px;
+  padding: 0 20px;
   margin: 0 auto;
   zoom: 1;
 }
