@@ -1,4 +1,5 @@
 yofred.github.io
 ================
 
-Using Jekyll for a static framework, I am putting together a website that serves as my digital portfolio.  I will have images of each project displayed in concise way, and link each project to a working domain.
+I used Jekyll to put up a static site of my portfolio and resume.
+The site consists of HTML, CSS, JQuery, and includes FancyBox for photo-viewing.
