@@ -61,6 +61,10 @@
   padding-top:15px;
 }
 
+.smaller-text{
+  font-size:1em;
+}
+
 /*.fancybox{*/
 /*  width:70%;*/
 /*  padding: 5px 0;*/
@@ -693,16 +697,7 @@ a:hover {
   }
 }
 
-/*@media screen and (max-width: 750px) {
-  .smacangel-image, .findyourphotog-image, .workhang-image, .dubtrack-image{
-    margin-bottom:1em;
-  }
-}
-*/
-
-
 /* Hover Text ------------------- ------------------- ------------------- ------------------- -------------------*/
-
 
 .portfolio-image img:hover{
   transition:.3s;
@@ -720,20 +715,23 @@ a:hover {
   margin-left:auto;
   margin-right:auto;
   margin-bottom:-71px;
-/*  top:-320px;*/
   top:-308px;
-/*  padding-bottom:-320px;*/
   display:none;
-}
-
-.main-image{
-/*  padding-bottom:200px;*/
-}
-
-#findyourphotog-main-hover a {
-  margin-bottom:300px;
 }
 
 .seperator-banner.top {
   padding-top:50px;
 }
+
+@media screen and (max-width: 950px) {
+  .view{
+    margin-top:2em;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .view{
+    margin-top:5em;
+  }
+}
+

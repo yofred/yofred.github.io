@@ -58,23 +58,12 @@ $(document).ready(function(){
     $("#image-6 .view").css("display", "none");
   });
   
-  
-  
-  
-  // $("#resume-project-button").on('click', function(){
-  //    $("#work").hide();
-  //    $('#resume').slideDown('slow')
-  //    window.location.href = "/";
-  //    // return true
-  // });
-  
   $("#resume-project-button").on('click', function(){
     $("#work").hide();
     $('#resume').slideDown('slow')
      // window.location.href = "/";
      // return true
   });
-
   
   $('.hover').hover(function(){
       $(this).addClass('flip');
