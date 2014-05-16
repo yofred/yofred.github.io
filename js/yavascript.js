@@ -58,6 +58,28 @@ $(document).ready(function(){
     $("#image-6 .view").css("display", "none");
   });
   
+  $("#main-image .view").mouseenter(function(){
+    $("#main-image img").click();
+  });
+  $("#image-1 .view").mouseenter(function(){
+    $("#image-1 img").click();
+  });
+  $("#image-2 .view").mouseenter(function(){
+    $("#image-2 img").click();
+  });
+  $("#image-3 .view").mouseenter(function(){
+    $("#image-3 img").click();
+  });
+  $("#image-4 .view").mouseenter(function(){
+    $("#image-4 img").click();
+  });
+  $("#image-5 .view").mouseenter(function(){
+    $("#image-5 img").click();
+  });
+  $("#image-6 .view").mouseenter(function(){
+    $("#image-6 img").click();
+  });
+  
   $("#resume-project-button").on('click', function(){
     $("#work").hide();
     $('#resume').slideDown('slow')
