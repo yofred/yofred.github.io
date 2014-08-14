@@ -6,12 +6,20 @@ $(document).ready(function(){
   
   $("#work-button").on('click', function(){
     $("#resume").hide();
+    $("#life").hide();
     $('#work').slideDown('slow')
   });
   
   $("#resume-button").on('click', function(){
     $("#work").hide();
+    $("#life").hide();
     $('#resume').slideDown('slow')
+  });
+  
+  $("#life-button").on('click', function(){
+    $("#work").hide();
+    $("#resume").hide();
+    $("#life").slideDown('slow')
   });
   
   // hover effect for portfolio images
