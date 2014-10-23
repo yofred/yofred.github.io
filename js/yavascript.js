@@ -1,17 +1,29 @@
 $(document).ready(function(){
 
   $(".fancybox").fancybox();
-  
+
   // $("#resume").hide();
-  
+
   $("#work-button").on('click', function(){
     $("#resume").hide();
+    $("#life").hide();
     $('#work').slideDown('slow')
   });
-  
+
   $("#resume-button").on('click', function(){
     $("#work").hide();
+
     $('#resume').slideDown('slow')
+  });
+
+    $("#life").hide();
+    $('#resume').slideDown('slow')
+  });
+
+  $("#life-button").on('click', function(){
+    $("#work").hide();
+    $("#resume").hide();
+    $("#life").slideDown('slow')
   });
   
   // hover effect for portfolio images
@@ -57,7 +69,7 @@ $(document).ready(function(){
   $("#image-6").mouseleave(function(){
     $("#image-6 .view").css("display", "none");
   });
-  
+
   $("#main-image .view").mouseenter(function(){
     $("#main-image img").click();
   });
@@ -79,18 +91,18 @@ $(document).ready(function(){
   $("#image-6 .view").mouseenter(function(){
     $("#image-6 img").click();
   });
-  
+
   $("#resume-project-button").on('click', function(){
     $("#work").hide();
     $('#resume').slideDown('slow')
      // window.location.href = "/";
      // return true
   });
-  
+
   $('.hover').hover(function(){
       $(this).addClass('flip');
   },function(){
       $(this).removeClass('flip');
   });
-  
+
 });
