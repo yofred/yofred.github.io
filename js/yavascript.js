@@ -12,10 +12,6 @@ $(document).ready(function(){
 
   $("#resume-button").on('click', function(){
     $("#work").hide();
-
-    $('#resume').slideDown('slow')
-  });
-
     $("#life").hide();
     $('#resume').slideDown('slow')
   });
@@ -25,7 +21,7 @@ $(document).ready(function(){
     $("#resume").hide();
     $("#life").slideDown('slow')
   });
-  
+
   // hover effect for portfolio images
   $("#main-image").mouseover(function(){
     $("#main-image .view").css("display", "block");
