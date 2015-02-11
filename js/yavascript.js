@@ -4,6 +4,8 @@ $(document).ready(function(){
 
   // $("#resume").hide();
 
+  $("#life").hide();
+
   $("#work-button").on('click', function(){
     $("#resume").hide();
     $("#life").hide();
