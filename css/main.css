@@ -1,3 +1,7 @@
+.fancybox-title a:visited{
+  color:yellow;
+}
+
 #work-button:hover{
   color:gray;
 }
