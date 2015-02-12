@@ -1,3 +1,7 @@
+.animate-footer{
+  visibility: hidden;
+}
+
 .header-padding{
   padding: 0 15px;
 }
@@ -123,16 +127,16 @@ p{
 }
 
 h1, h2, h3, h4, h5, {
-  font-family: 'Alegreya Sans SC', sans-serif;
+  font-family: 'Inconsolata', sans-serif;
   font-size: 100%;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 h6{
-  font-family: 'Alegreya Sans SC', sans-serif;
+  font-family: 'Inconsolata', sans-serif;
   font-size: 140%;
-  font-weight: 900;
-  font-style:italic;
+  font-weight: 400;
+  /*font-style:italic;*/
 }
 
 
@@ -199,12 +203,12 @@ a {
 .site-nav .menu-icon { display: none; }
 
 .site-nav .page-link {
-  font-family: 'Alegreya Sans SC', sans-serif;
+  font-family: 'Inconsolata', sans-serif;
   font-size: 1.3em;
   font-weight: 300;
-  margin-left: 10px;
+  margin-left: 25px;
   color: black;
-  letter-spacing: -.5px;
+  /*letter-spacing: -.5px;*/
   text-decoration:none;
   transition-property: all;
 
