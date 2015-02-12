@@ -108,7 +108,7 @@
 html, body { height: 100%; }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: helvetica, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
@@ -116,20 +116,35 @@ body {
 }
 
 p{
+  font-family: helvetica, sans-serif;
   color:#373737;
   font-size:1.1em;
   line-height: 1.3;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family:helvetica, Arial, sans-serif;
+h1, h2, h3, h4, h5, {
+  font-family: 'Alegreya Sans SC', sans-serif;
   font-size: 100%;
-  font-weight: 400;
+  font-weight: 300;
 }
+
+h6{
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 140%;
+  font-weight: 900;
+  font-style:italic;
+}
+
 
 a         { color: #2a7ae2; text-decoration: none; }
 a:hover   { color: #000; text-decoration: underline; }
 a:visited { color: #205caa; }
+
+a{
+  font-family: helvetica, sans-serif;
+  font-size: 100%;
+  font-weight: 300;
+}
 
 /* Utility */
 
@@ -168,7 +183,7 @@ a {
   line-height: 56px;
   position: relative;
   z-index: 1;
-  padding-top:2.3em;
+  padding-top:2.5em;
 }
 
 .site-title h6{
@@ -184,6 +199,9 @@ a {
 .site-nav .menu-icon { display: none; }
 
 .site-nav .page-link {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 1.3em;
+  font-weight: 300;
   margin-left: 10px;
   color: black;
   letter-spacing: -.5px;
@@ -627,7 +645,6 @@ a:hover {
 }
 
 .logo img{
-  position:absolute;
   margin:0 auto;
 /*  width:100px;*/
   display:inline;
@@ -648,7 +665,7 @@ a:hover {
 
 .smacangel-image {
  width: 100%;
- height:455px;
+ height:250px;
  display:block;
  background:transparent url('/images/smacangels-logo.png');
  background-repeat: no-repeat;
@@ -662,7 +679,7 @@ a:hover {
 
 .findyourphotog-image {
  width: 100%;
- height:455px;
+ height: 250px;
  display:block;
  background:transparent url('/images/findyourphotog-logo.png');
  background-repeat: no-repeat;
@@ -676,7 +693,7 @@ a:hover {
 
 .workhang-image {
  width: 100%;
- height:455px;
+ height:250px;
  display:block;
  background:transparent url('/images/workhang-logo.png');
  background-repeat: no-repeat;
@@ -690,7 +707,7 @@ a:hover {
 
 .dubtrack-image {
  width: 100%;
- height:455px;
+ height:250px;
  display:block;
  background:transparent url('/images/dubtrack-logo.png');
  background-repeat: no-repeat;
