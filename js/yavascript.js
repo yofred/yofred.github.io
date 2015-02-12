@@ -10,6 +10,35 @@ $(document).ready(function(){
     }
   });
 
+  // trigger footer CSS slideup animations
+  $(window).scroll(function() {
+    $('.animate-footer').each(function(){
+    var imagePos = $(this).offset().top;
+
+    var topOfWindow = $(window).scrollTop();
+      if (imagePos < topOfWindow+800) {
+        $(this).addClass("slideUp");
+      }
+    });
+  });
+
+  // trigger footer CSS tossing animations
+  $('.github-tossing').hover(function() {
+    $(this).addClass("tossing");
+  });
+  $('.dribbble-tossing').hover(function() {
+    $(this).addClass("tossing");
+  });
+  $('.facebook-tossing').hover(function() {
+    $(this).addClass("tossing");
+  });
+  $('.twitter-tossing').hover(function() {
+    $(this).addClass("tossing");
+  });
+  $('.instagram-tossing').hover(function() {
+    $(this).addClass("tossing");
+  });
+
   // $("#resume").hide();
 
   $("#life").hide();
