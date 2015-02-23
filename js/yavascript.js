@@ -9,7 +9,7 @@ $(document).ready(function(){
 
    function show_title(){
      $('#logo').css("visibility", "visible");
-     $('#logo').addClass('animated hatch');
+     $('#logo').addClass('animated slideExpandUp');
       //  remove animation after load to get hover effects
        window.setTimeout(
 
