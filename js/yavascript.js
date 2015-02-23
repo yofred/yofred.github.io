@@ -148,6 +148,7 @@ $(document).ready(function(){
      // return true
   });
 
+
   // flip da logo
   $('.hover').hover(function(){
       $(this).addClass('flip');
