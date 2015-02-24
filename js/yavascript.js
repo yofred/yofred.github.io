@@ -21,9 +21,9 @@ $(document).ready(function(){
      $('.header').addClass('animated slideDown');
    };
 
-   window.setTimeout( show_title, 200 );
+   window.setTimeout( show_title, 1 );
 
-   window.setTimeout( show_desc, 800 );
+   window.setTimeout( show_desc, 500 );
 
   })
 
